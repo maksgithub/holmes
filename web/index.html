@@ -20,13 +20,13 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="holmes">
+  <meta name="apple-mobile-web-app-title" content="holmes3">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>holmes</title>
+  <title>holmes3</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -40,7 +40,24 @@
       });
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
   
+
+  <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyAaUfG2Bb-wd1CEG1GwXfm_QouBRHhF08U",
+    authDomain: "finance-app-32589.firebaseapp.com",
+    projectId: "finance-app-32589",
+    storageBucket: "finance-app-32589.appspot.com",
+    messagingSenderId: "180463640197",
+    appId: "1:180463640197:web:12626955157c6fcd90d3ec",
+    measurementId: "G-G7842LZYLB"
+  }
+    firebase.initializeApp(firebaseConfig);
+  </script>
   
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
