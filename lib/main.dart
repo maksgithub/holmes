@@ -5,7 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'auth/firebase_user_provider.dart';
 
 import '../flutter_flow/flutter_flow_theme.dart';
-import 'package:holmes/second/second_widget.dart';
+import 'package:holmes/onb1/onb1_widget.dart';
 import 'package:holmes/onb1/onb1_widget.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 
@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
             )
           : currentUser.loggedIn
               ? Onb1Widget()
-              : SecondWidget(),
+              : Onb1Widget(),
     );
   }
 }

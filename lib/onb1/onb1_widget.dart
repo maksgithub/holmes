@@ -1,7 +1,7 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../home_page/home_page_widget.dart';
+import '../second/second_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -118,7 +118,7 @@ class _Onb1WidgetState extends State<Onb1Widget> {
                                               context,
                                               MaterialPageRoute(
                                                 builder: (context) =>
-                                                    HomePageWidget(),
+                                                    SecondWidget(),
                                               ),
                                             );
                                           },
@@ -230,7 +230,7 @@ class _Onb1WidgetState extends State<Onb1Widget> {
                                               context,
                                               MaterialPageRoute(
                                                 builder: (context) =>
-                                                    HomePageWidget(),
+                                                    SecondWidget(),
                                               ),
                                             );
                                           },
